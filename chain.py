@@ -24,17 +24,3 @@ def evaluate_car(make, model, year, mileage, asking_price, city, car_deal_descri
     
     return result
 
-result = evaluate_car(
-    make="Toyota",  
-    model="Corolla",
-    year=2020,
-    mileage=50000,
-    asking_price=2500000,
-    city="Karachi",
-    car_deal_description="Well-maintained, low mileage, great condition."
-)
-
-print("Verdict:", result.verdict)
-print("Red Flags:", result.red_flags)
-print("Questions for Seller:", result.questions)
-print("Negotiation Advice:", result.negotiation_advice)
